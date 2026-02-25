@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    background-color: #5d2c80;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+section#login > div#imagem{
+    background-image: url(../imagens/metal.jpg);
+    height: 200px;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+section#login > div#formulario > p{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+section#login > div#formulario{
+    padding: 10px;
+    text-align: center;
+}
+
+p.login-back > input{
+    background-color: #94cfcd;
+}
